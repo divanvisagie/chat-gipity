@@ -9,19 +9,19 @@ description = "Terminal client for interacting with Chat GPT that allows you to 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.98"
+anyhow = "1.0.100"
 atty = "0.2.14"
-clap = { version = "4.5.40", features = ["derive"] }
-reqwest = { version = "0.12.20", features = ["blocking", "json"] }
-serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0.140"
+clap = { version = "4.5.53", features = ["derive"] }
+reqwest = { version = "0.12.24", features = ["blocking", "json"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
 spinners = "4.1.1"
 serde_yaml = "0.9.34+deprecated"
 dirs = "6.0.0"
-config = "0.15.11"
+config = "0.15.19"
 toml = "0.8.23"
-tempfile = "3.20.0"
-uuid = { version = "1.17.0", features = ["v4"] }
+tempfile = "3.23.0"
+uuid = { version = "1.19.0", features = ["v4"] }
 tiktoken-rs = "0.6.0"
 base64 = "0.22.1"
 self_update = "0.42.0"
